@@ -1,0 +1,23 @@
+body {
+    background-color: #201a1a;
+    color: #fff;
+    margin: 0;
+}
+
+.header {
+    background-color: #232323;
+}
+.header_content {
+    width: 1440px;
+    margin: 0 auto;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.header_content a {
+    color: #ffff;
+    font-size: 24px;
+}

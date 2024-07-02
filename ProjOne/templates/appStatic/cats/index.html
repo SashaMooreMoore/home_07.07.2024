@@ -1,0 +1,20 @@
+{% extends 'appStatic/base.html' %}
+
+{% block title %}Кот{% endblock %}
+
+
+{% block content %}
+<style>
+    img {
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 700px;
+    }
+</style>
+    <div style="margin: auto; width: 900px; text-align: center; display: block;">
+        <h1>Страница котиков</h1>
+        <img class='cats' src="https://n1s2.hsmedia.ru/99/3f/80/993f8015528bff01417e77a0edd67688/728x485_1_0f551b7f945085d890d390a6ab8a269a@5000x3333_0xac120003_16811102131673473508.jpeg" alt="Гепард">
+        <img class='cats' src="https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/leopard-515509-1920_ver_1.jpg" alt="Леопард">
+        <img src="https://zoographia.ru/upload/iblock/4b0/927xt1g72tmmurnoan3dri14uonr3v9k.jpg" alt="Рысь">
+    </div>
+    {% endblock %}
